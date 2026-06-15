@@ -1,0 +1,40 @@
+const cars = [
+  {
+    id: 1,
+    make: "Hyundai",
+    model: "Creta",
+    type: "SUV",
+    fuelType: "Petrol",
+    transmission: "Automatic",
+    price: 1500000,
+    mileage: 19,
+    safety: 5,
+    reviews: 4.5,
+  },
+  {
+    id: 2,
+    make: "Tata",
+    model: "Nexon",
+    type: "SUV",
+    fuelType: "Petrol",
+    transmission: "Manual",
+    price: 1200000,
+    mileage: 21,
+    safety: 5,
+    reviews: 4.6,
+  },
+  {
+    id: 3,
+    make: "Honda",
+    model: "City",
+    type: "Sedan",
+    fuelType: "Petrol",
+    transmission: "Automatic",
+    price: 1400000,
+    mileage: 18,
+    safety: 4,
+    reviews: 4.4,
+  },
+];
+
+module.exports = cars;
